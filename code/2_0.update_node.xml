@@ -1,0 +1,7 @@
+<from_server>group:rs_ag</from_server>	<!--数据源，推荐用group:-->
+<to_server>link:db_mana</to_server>				<!--通常统一用link:dbmonitor-->
+
+<step>							<!--可以多次定义的任务步骤-->
+    <from_sqlstr>select @@servername as nodename  </from_sqlstr>			<!--要运行的SQL:一般为select-->
+<to_sqlstr> update [dba_mana].[dbo].[dba_alwayson_config] set pri_nodename='{0}'  where allwaysonid='{linkname}'</to_sqlstr>
+</step>
