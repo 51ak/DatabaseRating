@@ -22,6 +22,7 @@ DBA报表：利用现有的报表平台提供数据展示及任务触发<br>
 单个集群效果图：<br> 
 ![](https://github.com/51ak/DatabaseRating/raw/master/screenshots/Detail.png)  
 
-补充说明：<br> 
-![](https://github.com/51ak/DatabaseRating/raw/master/screenshots/t0.png)  
+<br> 
+<br> 
+<br> 
 
