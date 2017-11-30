@@ -17,6 +17,9 @@ DBA报表：利用现有的报表平台提供数据展示及任务触发<br>
 简单的运行过程描述图：<br> 
 ![](https://github.com/51ak/DatabaseRating/raw/master/screenshots/t1.png)  
 <br> 
+![](https://github.com/51ak/DatabaseRating/raw/master/screenshots/MYSQL性能模型.png)  
+<br> 
+
 综合展示页效果图（每一行代表一个群集实例）：<br> 
 ![](https://github.com/51ak/DatabaseRating/raw/master/screenshots/Main.png)  
 单个集群效果图：<br> 
