@@ -10,9 +10,11 @@
 编程语言：<br> 
 SQL ：收集和评分的逻辑用存储过程和函数完成(跟数据库相关，最方便且dba最熟悉)<br> 
 <br> 
-系统使用的开源资源：<br> 
-AOS:通过aos网页接口获得部分性能数据(也可以用cacti,nagios)<br> 
-DBA报表：利用现有的报表平台提供数据展示及任务触发<br> 
+监控数据来源：<br> 
+用报表平台的任务功能收集：
+1。第三方监控软件的数据：open-faclon,zabbix,cacti,aos (都是调api接口)
+2.直接上数据库用指定的SQL 查出数据，需要三列：主机名，监控项，监控 
+
 <br> 
 简单的运行过程描述图：<br> 
 ![](https://github.com/51ak/DatabaseRating/raw/master/screenshots/t1.png)  
