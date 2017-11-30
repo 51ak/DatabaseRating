@@ -1,4 +1,4 @@
-SQLSERVER数据库性能评分SQL
+数据库性能模型： mysql,sqlserver,redis 性能评分和报警
 ====
 设计目的：
 ----
