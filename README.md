@@ -11,10 +11,9 @@
 SQL ,xml<br> 
 <br> 
 监控数据来源：<br> 
-用报表平台的任务功能收集：
-1。调第三方监控软件的数据：open-faclon,zabbix,cacti,aos 
-2.直接上数据库用指定的SQL 查出数据，需要三列：主机名，监控项，监控 
-
+用报表平台的任务功能收集：<br> 
+1调第三方监控软件的数据：open-faclon,zabbix,cacti,aos <br> 
+2直接上数据库用指定的SQL 查出数据，需要三列：主机名，监控项，监控 
 <br> 
 简单的运行过程描述图：<br> 
 ![](https://github.com/51ak/DatabaseRating/raw/master/screenshots/t1.png)  
